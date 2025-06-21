@@ -10,7 +10,7 @@ Este repositório contém o frontend, o backend e o database do projeto de teste
 
 #### Alternativa 1:
 
-Pelo PgAdmin, crie um novo database com as seguintes especificações (para conexão é necessário um usuário com o nome postgres, senha root e porta 5434).
+Pelo PgAdmin (ou SGDB de sua escolha), crie um novo database com as seguintes especificações (para conexão é necessário um usuário com o nome postgres, senha root e porta 5434).
 
 - **Nome do banco:** Ipdv
 - **user:** postgres
@@ -107,6 +107,12 @@ Após instalado, execute o comando para rodar o frontend:
 
 ```bash
 vite
+```
+
+Se não tiver o vite, execute o comando:
+
+```bash
+npm run dev
 ```
 
 ---
